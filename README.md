@@ -1,6 +1,6 @@
-## Oiii, eu sou a ELIEL GUEDES, futuro engenheiro de software!
+## </>Eliel Guedes , software enginner!
 
-### Linguagens utilizadas:
+### 🛠️ Linguagens utilizadas:
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Eliel-PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
