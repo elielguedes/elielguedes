@@ -1,0 +1,19 @@
+## Oiii, eu sou a ELIEL GUEDES, futuro engenheiro de software!  
+
+### Linguagens utilizadas até agora:
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Eliel-PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
+  <img align="center" alt="Eliel-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
+  <img align="center" alt="Eliel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Eliel-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Eliel-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+</div>
+
+---
+
+### GitHub Contributions:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/elielguedes/elielguedes/main/dist/github-contribution-grid-snake-dark.svg" alt="Cobrinha GitHub" />
+</p>
