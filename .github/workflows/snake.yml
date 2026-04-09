@@ -1,10 +1,9 @@
-
-name: Generate Snake
+name: Generate Snake Dark
 
 on:
-  workflow_dispatch: # permite rodar manualmente
+  workflow_dispatch:   # rodar manualmente
   schedule:
-    - cron: "0 */12 * * *" # roda a cada 12h
+    - cron: "0 */12 * * *"  # a cada 12 horas
 
 permissions:
   contents: write
@@ -14,17 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake Dark
+      # Clonar repositório
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Gerar a cobrinha dark
+      - name: Generate snake dark
         uses: Platane/snk@v3
         with:
           github_user_name: elielguedes
-          output: dist/github-contribution-grid-snake-dark.svg
-          palette: github-dark   # ativa o dark theme
+          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # Commit e push da cobrinha para a main
       - name: Push to main branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          target_branch: main      # envia direto para main
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Update GitHub contribution snake"
+          branch: main
+          file_pattern: "dist/github-contribution-grid-snake-dark.svg"
