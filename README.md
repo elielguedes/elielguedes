@@ -2,7 +2,7 @@
 
 ### 🛠️ Linguagens utilizadas:
 
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 15px;">
   <img alt="Eliel-PHP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
   <img alt="Eliel-C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
   <img alt="Eliel-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
