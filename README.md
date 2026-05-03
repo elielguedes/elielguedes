@@ -28,7 +28,7 @@
 
 ---
 
-### 📊 Banco de Dados (SQL)
+### 📊 Linguagem(SQL) && SGBD(MYSQL)
 
 <p align="center">
   <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white">
